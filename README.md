@@ -17,11 +17,6 @@
 - [性能分析](#性能分析)
 - [結果](#結果)
 - [結論](#結論)
-- [未來工作](#未來工作)
-- [安裝](#安裝)
-- [使用方法](#使用方法)
-- [貢獻](#貢獻)
-- [授權](#授權)
 
 ## 介紹
 此專案旨在利用 CUDA 技術實現和優化最大團問題，並比較其與傳統 CPU 實現方法的性能差異。我們選擇了三種不同的 CUDA 實現方法進行研究，包括 Shared Memory Backtracking、Backtracking CUDA 和 Bron-Kerbosch CUDA。
@@ -53,7 +48,7 @@ Bron-Kerbosch 演算法是一種經典的最大團搜索算法。在 CUDA 中實
 
 #### 全部的測試結果
 <div align="center">
-  <img src="images/output.png" alt="result" width="50%">
+  <img src="images/output.png" alt="result" width="100%">
 </div>
 
 #### 100個節點，0.1機率節點相連
